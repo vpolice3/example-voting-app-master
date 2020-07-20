@@ -51,3 +51,4 @@ docker run -d --name=result -p 5001:80 --link redis:redis --link db:db result-ap
 
 docker run -d --name=worker --link redis:redis --link db:db worker-app
 # example-voting-app-master
+"# example-voting-app-master" 
