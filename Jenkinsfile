@@ -3,7 +3,7 @@ pipeline{
         stages{
             stage('SCM'){
                 steps{
-                   git https://github.com/prabhavagrawal/simple-webapp-flask.git
+                   git https://github.com/vpolice3/example-voting-app-master.git
               }
             }
           }
